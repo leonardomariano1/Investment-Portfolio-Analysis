@@ -3,6 +3,7 @@
 This project involves organizing and analyzing investment data to assess the adherence of accounts to an investment policy. The data is stored in PostgreSQL, and the goal is to calculate Euclidean Distance as a metric for portfolio adherence.
 
 ## Table of Contents
+- [Streamlit Dashboard](#streamlit-dashboard)
 - [Database Schema](#database-schema)
 - [Data Source](#data-source)
 - [Data Transformation](#data-transformation)
@@ -10,6 +11,41 @@ This project involves organizing and analyzing investment data to assess the adh
 - [Results](#results)
 - [Visualization](#visualization)
 - [Usage](#usage)
+
+## Streamlit Dashboard
+
+In addition to the data analysis and transformation, this project includes a user-friendly Streamlit dashboard for interactive exploration of the investment portfolio. The dashboard provides key insights and visualizations, making it easier for stakeholders to understand the data.
+
+## Streamlit Dashboard Features
+
+1. **Custom Styling with CSS**: The dashboard features custom styling with CSS to enhance the visual appeal and create a cohesive design. The main content area is padded for better readability.
+
+2. **Title and Description**: The dashboard opens with a clear title, "Investment Portfolio Analysis," and a sidebar that credits the developer.
+
+3. **Filtering Data**: Users can dynamically filter the data based on account suitability using a select box in the sidebar. The default selection is set to 'Agressivo.'
+
+4. **Top 10 Position Values by Asset**: A horizontal bar chart showcases the top 10 position values by asset, providing a quick overview of the most significant investments.
+
+5. **Class Distribution Pie Chart**: A pie chart visually represents the distribution of asset classes, with distinct colors for each class (Equity, Fixed Income, Cash).
+
+6. **Asset Classes with the Most Disrespected Policy**: A table displays the average Euclidean Distance for each asset class, helping identify classes where the actual allocation deviates significantly from the ideal allocation.
+
+7. **Correlation Heatmap**: A heatmap reveals the correlation between numeric columns, aiding in understanding relationships between different variables in the dataset.
+
+8. **Dataset Summary**: The sidebar includes a summary of the dataset, providing key statistics for quick reference.
+
+## Usage Instructions
+
+1. **Access the Dashboard**: To access the Streamlit dashboard, visit [https://investment-portfolio-analysis.streamlit.app/](https://investment-portfolio-analysis.streamlit.app/).
+
+2. **Filter Data**: Use the select box in the sidebar to filter data based on account suitability.
+
+3. **Explore Visualizations**: Interact with visualizations, such as the top 10 position values, class distribution pie chart, and correlation heatmap.
+
+4. **Gain Insights**: Leverage the dashboard to gain insights into the investment portfolio, identify trends, and explore correlations.
+
+Feel free to explore and analyze the data interactively using the Streamlit dashboard!
+
 
 ## Database Schema
 ![Database Schema](Untitled%20(1).png)
