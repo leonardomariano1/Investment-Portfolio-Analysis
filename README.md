@@ -14,6 +14,7 @@ This project involves organizing and analyzing investment data to assess the adh
 - [Usage](#usage)
 
 ## Database Schema
+<img src="Untitled (1).png" alt="Diagram" width="600">
 
 ### Tables
 1. **accounts**
