@@ -1,5 +1,3 @@
-Certainly! Let's expand on each section to provide more detailed explanations:
-
 # Investment Portfolio Analysis
 
 This project involves organizing and analyzing investment data to assess the adherence of accounts to an investment policy. The data is stored in PostgreSQL, and the goal is to calculate Euclidean Distance as a metric for portfolio adherence.
@@ -14,7 +12,7 @@ This project involves organizing and analyzing investment data to assess the adh
 - [Usage](#usage)
 
 ## Database Schema
-<img src="Untitled (1).png" alt="Diagram" width="600">
+![Database Schema](Untitled%20(1).png)
 
 ### Tables
 1. **accounts**
@@ -94,7 +92,7 @@ The results of the Euclidean Distance calculations are stored in the `euclidean_
 
 ## Visualization
 
-The database schema and relationships can be visualized using the dbdiagram.io tool. The schema includes tables such as `accounts`, `assets`, `positions`, `classes`, `allocation_policies`, `combined_data`, and `euclidean_distance_results`.
+The database schema and relationships can be visualized using the dbdiagram.io tool. The schema includes tables such as `accounts`, `assets`, `positions`, `classes`, `allocation_policies`, `combined_data`, and `euclidean_distance`.
 
 ## Usage
 
@@ -102,5 +100,3 @@ The database schema and relationships can be visualized using the dbdiagram.io t
 2. **SQL Script Execution**: Run the SQL scripts to transform the data, calculate Euclidean Distance, and store the results.
 3. **Visualization**: Utilize dbdiagram.io to visualize the database schema.
 4. **Analysis**: Explore the `euclidean_distance_results` table for insights into account adherence to the investment policy.
-
-Feel free to customize this README to better fit the specifics of your project.
