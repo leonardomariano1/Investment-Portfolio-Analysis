@@ -3,8 +3,11 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-# Read your data directly in the Streamlit script
-df_data = pd.read_csv('/Users/macbook/Documents/desafio-dados/data/combined_data.csv')
+# GitHub raw file URL
+github_raw_url = 'https://raw.githubusercontent.com/leonardomariano1/Investment-Portfolio-Analysis/main/combined_data.csv'
+
+# Read data from GitHub
+df_data = pd.read_csv(github_raw_url)
 
 # Set page configuration
 st.set_page_config(
