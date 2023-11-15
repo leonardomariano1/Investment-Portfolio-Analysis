@@ -36,3 +36,10 @@ CREATE TABLE allocation_policies (
     percentage NUMERIC,
     FOREIGN KEY (class_id) REFERENCES classes (class_id)
 );
+-- Table 6: Euclidean Distance Results
+CREATE TABLE euclidean_distance_results (
+    account_code INT,
+    euclidean_distance NUMERIC,
+    PRIMARY KEY (account_code),
+    FOREIGN KEY (account_code) REFERENCES accounts (account_code)
+);
