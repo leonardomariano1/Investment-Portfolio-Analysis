@@ -13,7 +13,7 @@ This project involves organizing and analyzing investment data to assess the adh
 - [Usage](#usage)
 
 ## Streamlit Dashboard
-
+![Dashboard](sample_dashboard.png)
 In addition to the data analysis and transformation, this project includes a user-friendly Streamlit dashboard for interactive exploration of the investment portfolio. The dashboard provides key insights and visualizations, making it easier for stakeholders to understand the data.
 
 ## Streamlit Dashboard Features
